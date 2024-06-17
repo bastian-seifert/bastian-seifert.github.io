@@ -2,7 +2,7 @@
 # Global options
 baseURL = "/"
 canonifyURLs = true
-copyright = "© 2021 by Carl Barks. <a href='/privacy'>Privacy policy</a>."
+copyright = "© 2024 by Bastian Seifert. <a href='/privacy'>Privacy policy</a>."
 defaultContentLanguage = "en"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 languageCode = "en"
@@ -15,15 +15,19 @@ title = "Bastian Seifert"
 [[menu.main]]
     name = "About"
     url  = "/about"
+    weight = 1
+[[menu.main]]
+    name = "Projects"
+    url  = "/projects"
     weight = 2
 [[menu.main]]
     name = "Publications"
     url  = "/publications"
-    weight = 2
+    weight = 3
 [[menu.main]]
     name = "Blog"
     url  = "/posts"
-    weight = 3
+    weight = 4
 
 
 
@@ -31,10 +35,10 @@ title = "Bastian Seifert"
 [params]
 
     [params.head]
-        author = "Carl Barks"
+        author = "Bastian Seifert"
         custom_css = ""
-        description = "Hi, I'm Carl, and this is my website!"
-        keywords = ["some", "keywords", "to", "describe", "this"]
+        description = "Software Engineer, Scientist, Consultant"
+        keywords = ["Rust", "Graph Signal Processing", "Database Engines", "AI", "Causality"]
 
     [params.navigation]
         show_navigation = true
@@ -56,43 +60,28 @@ title = "Bastian Seifert"
         [params.social.email]
             name = "E-Mail"
             class = "fas fa-envelope"
-            url = "mailto:your_name@your_institution.com"
+            url = "mailto:seifert.bastian@protonmail.com"
             weight = 1
         [params.social.github]
             name = "GitHub"
             class = "fab fa-github"
-            url = ""
+            url = "https://github.com/bastian-seifert"
             weight = 2
         [params.social.google_scholar]
             name = "Google Scholar"
             class = "ai ai-google-scholar-square"
-            url = ""
+            url = "https://scholar.google.com/citations?user=JHwQad4AAAAJ&hl=de"
             weight = 3
-        [params.social.instagram]
-            name = "Instagram"
-            class = "fab fa-instagram"
-            url = ""
-            weight = 4
-        [params.social.institution]
-            name = "My institution"
-            class = "fas fa-university"
-            url = ""
-            weight = 5
         [params.social.linkedin]
             name = "LinkedIn"
             class = "fab fa-linkedin"
-            url = ""
-            weight = 6
+            url = "https://www.linkedin.com/in/bastian-seifert-91b29b56/"
+            weight = 4
         [params.social.orcid]
             name = "ORCID iD"
             class = "fab fa-orcid"
-            url = ""
-            weight = 7
-        [params.social.twitter]
-            name = "Twitter"
-            class = "fab fa-twitter"
-            url = ""
-            weight = 8
+            url = "https://orcid.org/0000-0002-2207-8285"
+            weight = 5
 
 
 
