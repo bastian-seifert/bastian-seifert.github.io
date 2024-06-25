@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bastian Seifert - Software Engineering, Graph Signal Processing, AI Consulting</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Bastian Seifert - Software Engineering, Graph Signal Processing, AI Consulting</description>
+    <title>Reseraches on Bastian Seifert - Software Engineering, Graph Signal Processing, AI Consulting</title>
+    <link>http://localhost:1313/reserach/</link>
+    <description>Recent content in Reseraches on Bastian Seifert - Software Engineering, Graph Signal Processing, AI Consulting</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 25 Jun 2024 22:25:13 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/reserach/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Graph Signal Processing</title>
       <link>http://localhost:1313/reserach/gsp/</link>
